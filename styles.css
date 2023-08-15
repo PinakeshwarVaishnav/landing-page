@@ -14,6 +14,8 @@ body {
     font-size: 48px;
     font-weight: 800;
     color: #f9faf8;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .subtext p {
@@ -42,4 +44,33 @@ ul {
 
 li {
     margin-bottom: 5px;
+}
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    color: #e5e7eb;
+    padding: 30px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 33px;
+}
+
+.quote {
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+    margin-bottom: 0;
+}
+
+.author {
+    font-weight: bolder;
+    margin-top: 0;
+    padding-left: 200px;
 }
