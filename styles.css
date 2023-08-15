@@ -74,3 +74,27 @@ li {
     margin-top: 0;
     padding-left: 200px;
 }
+
+.signup-box {
+    display: flex;
+    align-items: center;
+    background-color: #3882f6;
+    color: #f9faf8;
+    margin: 100px;
+    justify-content: space-evenly;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.signup-text {
+    font-weight: bolder;
+}
+
+.signup-button {
+    text-decoration: none;
+    color: #f9faf8;
+    font-weight: bolder;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
